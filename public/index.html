@@ -31,6 +31,8 @@
                     error.show();
                 }
                 else {
+                console.log("new: " + newEmail);
+                console.log("old: " + oldEmail);
                     $.ajax({
                         url: event.target.action,
                         method: event.target.method,
